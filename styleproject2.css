@@ -1,0 +1,301 @@
+/* all the project */
+*
+{
+    padding: 0;
+    margin: 0;
+   
+}
+
+/* navbar */
+
+#navbar
+{
+    background-color: #5816b8;
+
+    padding: 23px 80px;
+   
+    background-image: url(../images/logo.png) ;
+    background-position:left;
+    background:0px 10px 0px 0px ;
+    
+    background-size: 50px;
+    background-repeat: no-repeat;
+   
+  
+
+}
+
+#navbar>ul>li
+{
+    display: inline;
+    margin-left: 3px;
+    
+
+}
+
+/* #navbar>ul>li>img{
+    width: 50px;
+} */
+#navbar>ul>li>a
+{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+    
+/* hero section */
+
+#hero>img
+{
+    width: 100%;
+    height: 80vh;
+    
+    
+}
+/* center */
+
+#center
+{
+    background-color: white;
+    text-align: center ;
+}
+#center>h1
+{
+  margin-top: 5px;
+    word-spacing:100px;
+    font-size: 67px;
+    font-weight: bold;
+}
+
+#center>.center1
+{
+border:solid #ffeb99 ;
+background-color: #ffeb99 ;
+    width: 31.5%;
+    height: 100px;
+margin-left: 0px;
+opacity: 0.6;
+margin-top: 60px;
+
+}
+
+#center>.center1 p{
+padding-top: 17px;
+opacity:.7;
+font-size: 25px;
+}
+
+/* -------2--------- */
+
+#center>.center2
+{
+    border:solid #f490c0  ;
+    background-color: #f490c0  ;
+        width: 43%;
+        height: 66vh;
+    margin-left: 10%;
+    margin-top: 8px;
+
+    
+    }
+
+
+#center>.center2 h4{
+    padding-top: 35px;
+    
+    font-size: 28px;
+
+
+
+
+}
+
+    #center>.center2 p{
+        word-spacing: .1px;
+padding:50px 20px;
+text-indent:55px;
+text-align: justify;
+line-height:55px;
+font-weight: bolder;
+font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: italic;
+  font-size: 37px;
+text-decoration: underline;
+
+    }
+    /* -------3-------- */
+
+#center>.center3
+
+{
+    border: solid #B3DBF4 ;
+    width:43% ;
+    height: 26vh;
+    margin-left: 20.5%;
+    margin-top: 8px;
+    background-color: #B3DBF4;
+
+}
+
+#center>.center3 h4{
+    padding-top: 35px;
+    text-align:left;
+    padding-left: 21px;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: overline;
+}
+
+#center>.center3 a
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0B51C1;
+    padding: 12px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    
+    margin-left: 15px;
+    width: 150px;
+    height: 20px;
+   margin-top: 40px;
+   border-radius: 10px;
+    font-size: 20px;
+
+}
+#center>.center3 a:hover
+{
+    background-color: #8956d5;
+
+}
+/* -----4------ */
+
+
+#center>.center4
+{
+    border: solid #5816b8 ;
+    width:44% ;
+    height: 50vh;
+    margin-left: 30%;
+    margin-top: 8px;
+    background-color: #5816b8 ;
+
+}
+
+#center>.center4 h4{
+    padding-top: 35px;
+    text-align:left;
+    padding-left: 10px;
+    font-size: 25px;
+    color: black;
+
+}
+#center>.center4 ul
+{
+background-color: cyan;
+    margin: 10px 10px;
+    height: 70%;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+   padding-left:20px ;
+   padding-top: 24px;
+}
+#center>.center4 ul ol
+{
+    
+    margin-left: 50px;
+
+}
+#center>.center4 ul ol ul li
+
+{
+   
+    padding:5px 0px;
+    font-size: 30px;
+    color: black;
+}
+#center>.center4 ul ol ul li:first-child
+{
+    border: solid gray;
+    background-color: gray;
+    height: 20px;
+    padding-bottom:10px ;
+    padding-top: 0px;
+    margin-bottom: 25px;
+}
+#center>.center4 ul ol ul li:last-child
+{
+    border: solid gray;
+    background-color: gray;
+    height: 20px;
+    padding-bottom:10px ;
+    padding-top: 0px;
+  
+}
+
+/* ------5------- */
+
+
+#center>.center5
+{
+    border: solid #ffeb99  ;
+    background-color: #ffeb99 ;
+        width: 45%;
+        height: 50vh;  
+        margin-top: 8px;
+    margin-left: 45%;
+}
+#center>.center5 h4{
+    padding-top: 35px;
+    text-align:left;
+    padding-left: 18px;
+    font-size: 25px;
+    color: black;
+
+}   
+
+#center>.center5 table
+{
+    width: 76%;
+    height: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    border: solid black;
+    font-size: 15px;
+    background-color: #ffeb99;
+    
+   
+}
+
+#center>.center5 table thead tr th
+{
+    border: black solid;
+    padding:8px 25px;;
+    color:black;
+}
+#center>.center5 table tbody  tr td
+{
+   border: black solid;
+    color:black;
+    padding: 8px 25px;
+}
+#center>.center5 table tbody tr:nth-child(odd)
+{
+    background-color: #5816b8;
+}
+#center>.center5 table tbody tr:nth-child(even)
+{
+    background-color:aqua;
+       
+}
+
+
+#center>.center5 table tbody  tr:hover
+{
+    background-color: #f490c0;
+       
+}

@@ -1,0 +1,131 @@
+/* all the project */
+*{
+margin:0px;
+padding: 0px;
+
+
+}
+ /* NAVBAR */
+ #navbar 
+ {
+    background-color: black;
+    padding:20px 40px;
+ }
+  #navbar>ul>li
+  {
+  margin-right: 20px;
+    display: inline;
+  }
+#navbar>ul>li>a
+{
+    text-decoration: none;
+color: white;
+font-size: 18px;
+padding-right: 20px;
+
+}
+
+
+
+
+/* hero section */
+
+body
+{
+   margin: 0;
+    background-color: gray;
+    
+}
+
+#hero 
+{
+  margin: 20px 20px;
+   background-image:url(../images/1.jpg) ;
+    height: 50vh;
+    background-size: 200vh;
+    background-repeat: no-repeat;
+    position: center;
+    border-radius: 20px;
+    background-attachment: scroll;
+    background-size: 100% 290%;
+    background-position-y:-350px;
+}
+
+#products
+{
+  margin-top: 40px;
+  gap: 40px;
+}
+
+#products>.single-products
+{
+  
+  width:15%;
+  height: 100%;
+  
+  background-color: black;
+    border: solid;
+    border-radius: 8px;
+    text-align: center;
+    padding-bottom: 5px ;
+    padding-top: 5px;
+    display: block  ;
+    margin: 30px 30px;
+}
+
+
+#products>h1
+{
+  text-align: center;
+  color: black;
+  margin-bottom: 3px;
+  margin-top: 20px;
+}
+#products>.single-products img
+{
+  width: 150px;
+  height: 100px;
+
+}
+
+#products>.single-products h4
+{
+  font-size: 17px;
+  margin: 10px 0px;
+  color: white;
+
+}
+#products>.single-products p
+{
+  color: white;
+  font-size: 15px;
+  margin-top:5px;
+  
+
+}
+#products>.single-products button
+{
+  border:solid white;
+  border-radius: 10px;
+  display:inline-block;
+  margin:10px 0px;
+  padding: 5px;
+}
+
+#products>div:first-child
+{
+margin-right: auto;
+}
+
+#products>div:last-child
+{
+ margin-left:auto;
+}
+#products>div:nth-child(3)
+{
+  margin-left: 25%;
+}
+#products>div:nth-child(4)
+{
+  margin-left: 52%;
+}
